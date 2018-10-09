@@ -132,4 +132,63 @@ void main()
 #### 4.8 链接
 链接可以由两种形式生成：**行内式**和**参考式**.  
 **行内式**：  
-> `[li_dianxiang的Markdown库](https://github.com/li_dianxiang/Markdown)`
+> `[li_dianxiang的Markdown库](https://github.com/lidianxiang/Markdown)`  
+
+效果： 
+
+> [li_dianxiang的Markdown库](http://github.com/lidianxiang/Markdown)  
+
+**参考式**：
+> `[li_dianxiang的Markdown库1][1]`  
+> `[li_dianxiang的Markdown库2][2]`  
+> `[1]: https://github.com/lidianxiang/Markdown`  
+> `[1]: https://github.com/lidianxiang/Markdown`  
+
+效果：  
+> [li_dianxiang的Markdown库1][1]  
+> [li_dianxiang的Markdown库2][2]   
+
+[1]: https://github.com/lidianxiang/Markdown  
+[2]: https://github.com/lidianxiang/Markdown  
+
+#### 4.9 图片
+
+添加图片的形式和链接相似，只需在链接的基础上前方加一个！。
+
+#### 4.10  反斜杠\  
+
+相当于**反转义**作用。使符号成为普通符号。
+
+#### 4.11 符号'`'  
+起到标记作用。如：  
+> \`ctrl+a\`
+
+效果：    
+> `ctrl+a`  
+
+### 5.*谁*在使用？  
+
+Markdown的使用者：  
++ GitHub  
++ 简书  
++ StackOverflow  
++ Apollo  
++ Moodle  
++ Reddit  
++ 等等
+
+### 6. 尝试一下  
++ **Chrome**下的插件如stackdit与markdown-here等非常方便，也不用担心平台受限。  
++ **在线**的dillinger.io评价也不错  
++ **Windows**下的MarkdownPad  
++ **Mac**下的Mou是国人贡献的，口碑不错   
++ **Linux**下的ReText也不错
+
+
+### 其它  
+列表的使用（非traditional markdown）,用 | 表示表格纵向边界，表头和表内容用 - 隔开，并可用：进行对齐设置，两边都有：则表示居中，若不加：则默认左对齐。  
+
+|代码库                               |链接                                        |
+|:-----------------------------------:|------------------------------------------------|
+|Markdown                             |[https://github.com/lidianxiang/Markdown](https://github.com/lidianxiang/Markdown)|
+|MarkdownCopy                         |[https://github.com/lidianxiang/Markdown](https://github.com/lidianxiang/Markdown)|
